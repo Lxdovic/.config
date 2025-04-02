@@ -7,6 +7,8 @@ o.shiftwidth = 4
 o.tabstop = 4
 o.softtabstop = 4
 
+-- Numbers
+o.relativenumber = true
 -- o.cursorlineopt ='both' -- to enable cursorline!
 
 -- set filetype for .CBL COBOL files.
