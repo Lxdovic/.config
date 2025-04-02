@@ -1,3 +1,5 @@
+local on_attach = require("nvchad.configs.lspconfig").on_attach
+
 return {
 
     {
@@ -14,6 +16,19 @@ return {
         config = function()
             require("nvchad.configs.lspconfig").defaults()
             require("configs.lspconfig")
+        end,
+    },
+
+    {
+        "mrcjkb/rustaceanvim",
+        version = "^5",
+        ft = { "rust" },
+        config = function(_, _)
+            vim.g.rustaceanvim = {
+                server = {
+                    on_attach = on_attach,
+                },
+            }
         end,
     },
 

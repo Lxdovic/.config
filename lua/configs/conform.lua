@@ -13,6 +13,7 @@ local options = {
         json = { "prettierd", "prettier" },
         html = { "prettierd", "prettier" },
         css = { "prettierd", "prettier" },
+        rust = { "rustfmt", "rustfmt" },
     },
 
     formatters = {

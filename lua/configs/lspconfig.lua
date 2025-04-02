@@ -13,7 +13,6 @@ lspconfig.servers = {
     "ols",
     "pyright",
     "ts_ls",
-    "js",
 }
 
 -- list of servers configured with default config.
